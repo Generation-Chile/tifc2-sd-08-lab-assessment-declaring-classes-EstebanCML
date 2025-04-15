@@ -5,6 +5,6 @@ export class Player {
     console.log(`${this.name} has reached Level ${this.level}!`);
   }
   info() {
-    return `${this.name} has reached Level ${this.level}!`; // Retorna el mensaje
-  }
+    console.log(`${this.name} has reached Level ${this.level}!`);
+    }
   }

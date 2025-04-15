@@ -6,8 +6,8 @@ export class Player {
 
     // método para imprimir información del jugador
     info() {
-      return `${this.name} has reached Level ${this.level}!`;
-    }
+      console.log(`${this.name} has reached Level ${this.level}!`);
+        }
     // método para aumentar el nivel del jugador
     levelUp(){
       this.level += 1;
